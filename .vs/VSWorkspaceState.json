@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FitnessCenter",
+    "\\FitnessCenter\\Areas",
+    "\\FitnessCenter\\Areas\\Admin",
+    "\\FitnessCenter\\Areas\\Admin\\Controllers",
+    "\\FitnessCenter\\Areas\\Admin\\Views",
+    "\\FitnessCenter\\Areas\\Admin\\Views\\Dashboard",
+    "\\FitnessCenter\\Properties",
+    "\\FitnessCenter\\Views",
+    "\\FitnessCenter\\Views\\Home"
+  ],
+  "SelectedNode": "\\FitnessCenter\\Controllers",
+  "PreviewInSolutionExplorer": false
+}
