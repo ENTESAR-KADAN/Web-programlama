@@ -2,10 +2,29 @@
     ViewData["Title"] = "Admin Panel";
 }
 
-<h2>Admin Panel</h2>
+<div style="margin: 20px; font-family: Arial;">
+    <h1 style="font-size:28px; margin-bottom:20px;">?? Admin Panel</h1>
 
-<ul>
-    <li><a href="/SporSalonlari">Spor Salonlarý Yönetimi</a></li>
-    <li><a href="/Antrenorler">Antrenör Yönetimi</a></li>
-    <li><a href="/Hizmetler">Hizmet Yönetimi</a></li>
-</ul>
+    <div style="display:flex; gap:20px;">
+        <div style="border:1px solid #ccc; padding:20px; border-radius:8px; width:250px;">
+            <h3>Spor Salonlarý</h3>
+            <p>Spor salonlarýný görüntüle ve yönet.</p>
+            <a style="color:white; background:#007bff; padding:8px 15px; border-radius:5px; text-decoration:none;"
+               href="/SporSalonlari">Yönet</a>
+        </div>
+
+        <div style="border:1px solid #ccc; padding:20px; border-radius:8px; width:250px;">
+            <h3>Antrenörler</h3>
+            <p>Antrenör bilgilerini görüntüle ve yönet.</p>
+            <a style="color:white; background:#28a745; padding:8px 15px; border-radius:5px; text-decoration:none;"
+               href="/Antrenorler">Yönet</a>
+        </div>
+
+        <div style="border:1px solid #ccc; padding:20px; border-radius:8px; width:250px;">
+            <h3>Hizmetler</h3>
+            <p>Hizmet listelerini görüntüle ve yönet.</p>
+            <a style="color:white; background:#dc3545; padding:8px 15px; border-radius:5px; text-decoration:none;"
+               href="/Hizmetler">Yönet</a>
+        </div>
+    </div>
+</div>
