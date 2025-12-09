@@ -2,14 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\FitnessCenter",
-    "\\FitnessCenter\\Areas",
-    "\\FitnessCenter\\Areas\\Admin",
-    "\\FitnessCenter\\Areas\\Admin\\Controllers",
-    "\\FitnessCenter\\Areas\\Admin\\Views",
-    "\\FitnessCenter\\Areas\\Admin\\Views\\Dashboard",
-    "\\FitnessCenter\\Properties",
+    "\\FitnessCenter\\bin",
+    "\\FitnessCenter\\bin\\Debug",
+    "\\FitnessCenter\\bin\\Release",
+    "\\FitnessCenter\\Controllers",
+    "\\FitnessCenter\\Data",
+    "\\FitnessCenter\\Models",
     "\\FitnessCenter\\Views",
-    "\\FitnessCenter\\Views\\Home"
+    "\\FitnessCenter\\Views\\Home",
+    "\\FitnessCenter\\wwwroot"
   ],
   "SelectedNode": "\\FitnessCenter\\Program.cs",
   "PreviewInSolutionExplorer": false

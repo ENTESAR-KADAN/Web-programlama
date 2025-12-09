@@ -1,9 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using FitnessCenter.Models;
 
 namespace FitnessCenter.Data
 {
-    public class ApplicationDbContext : DbContext
+    // IdentityDbContext kullanarak kullanıcıları ve rollerini yöneteceğiz.
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
@@ -36,9 +38,13 @@ namespace FitnessCenter.Data
                 .OnDelete(DeleteBehavior.Restrict);
         }
 
+        // DbSet'ler
         public DbSet<SporSalonu> SporSalonlari { get; set; }
         public DbSet<Antrenor> Antrenorler { get; set; }
         public DbSet<Hizmet> Hizmetler { get; set; }
         public DbSet<Randevu> Randevular { get; set; }
+
+        // ApplicationUser ile ilgili tablo
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
     }
 }
