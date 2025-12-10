@@ -1,0 +1,13 @@
+﻿@model SporSalonuYonetimSistemi.Models.Salon
+
+<h2>Delete Salon</h2>
+
+<h4>Are you sure you want to delete this salon?</h4>
+<div>
+    <strong>@Model.Name</strong>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Cancel</a>
+</form>

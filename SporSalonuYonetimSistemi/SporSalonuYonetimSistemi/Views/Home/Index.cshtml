@@ -1,0 +1,30 @@
+﻿@model IEnumerable<SporSalonuYonetimSistemi.Models.Salon>
+
+<h2>Salonlar</h2>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var salon in Model)
+            {
+                <tr>
+                    <td>@salon.Name</td>
+                    <td>@salon.Location</td>
+                    <td>@salon.Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No salons found in the database.</p>
+}
