@@ -1,17 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\FitnessCenter",
-    "\\FitnessCenter\\bin",
-    "\\FitnessCenter\\bin\\Debug",
-    "\\FitnessCenter\\bin\\Release",
-    "\\FitnessCenter\\Controllers",
-    "\\FitnessCenter\\Data",
-    "\\FitnessCenter\\Models",
-    "\\FitnessCenter\\Views",
-    "\\FitnessCenter\\Views\\Home",
-    "\\FitnessCenter\\wwwroot"
+    "\\SporSalonuYonetimSistemi",
+    "\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi",
+    "\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi\\Views"
   ],
-  "SelectedNode": "\\FitnessCenter\\Program.cs",
+  "SelectedNode": "\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

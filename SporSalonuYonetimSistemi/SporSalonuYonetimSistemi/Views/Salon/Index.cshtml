@@ -1,0 +1,28 @@
+﻿@model IEnumerable<SporSalonuYonetimSistemi.Models.Salon>
+
+<h2>Salons</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var salon in Model)
+        {
+            <tr>
+                <td>@salon.Name</td>
+                <td>@salon.Location</td>
+                <td>@salon.Price</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = salon.Id })" class="btn btn-warning">Edit</a>
+                    <a href="@Url.Action("Delete", new { id = salon.Id })" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
