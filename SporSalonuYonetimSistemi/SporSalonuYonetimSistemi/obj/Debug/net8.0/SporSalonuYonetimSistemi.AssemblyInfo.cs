@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SporSalonuYonetimSistemi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2b49bef32506b74fea07d01880eff2e3afe2dac")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+>>>>>>> 2c6a6a27c00e28d78667db377d548b26bce52990
 [assembly: System.Reflection.AssemblyProductAttribute("SporSalonuYonetimSistemi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SporSalonuYonetimSistemi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

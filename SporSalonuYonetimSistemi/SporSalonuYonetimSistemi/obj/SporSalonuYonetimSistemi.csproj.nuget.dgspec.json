@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\t\\source\\repos\\Web-programlama\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\t\\source\\repos\\Web-programlama\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi.csproj",
         "packagesPath": "C:\\Users\\t\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\t\\source\\repos\\Web-programlama\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi\\obj\\",
+=======
+    "C:\\Users\\t\\source\\repos\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\t\\source\\repos\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\t\\source\\repos\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi.csproj",
+        "projectName": "SporSalonuYonetimSistemi",
+        "projectPath": "C:\\Users\\t\\source\\repos\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi.csproj",
+        "packagesPath": "C:\\Users\\t\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\t\\source\\repos\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi\\obj\\",
+>>>>>>> 2c6a6a27c00e28d78667db377d548b26bce52990
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

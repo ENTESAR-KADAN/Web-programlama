@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Tq8aff22ung=",
   "success": true,
   "projectFilePath": "C:\\Users\\t\\source\\repos\\Web-programlama\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi.csproj",
+=======
+  "dgSpecHash": "DgFGgJCUBxs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\t\\source\\repos\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi\\SporSalonuYonetimSistemi.csproj",
+>>>>>>> 2c6a6a27c00e28d78667db377d548b26bce52990
   "expectedPackageFiles": [
     "C:\\Users\\t\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\t\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

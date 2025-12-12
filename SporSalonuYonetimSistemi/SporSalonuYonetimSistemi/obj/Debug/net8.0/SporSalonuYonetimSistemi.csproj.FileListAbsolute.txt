@@ -149,6 +149,7 @@ C:\Users\t\source\repos\SporSalonuYonetimSistemi\SporSalonuYonetimSistemi\obj\De
 C:\Users\t\source\repos\SporSalonuYonetimSistemi\SporSalonuYonetimSistemi\obj\Debug\net8.0\SporSalonuYonetimSistemi.pdb
 C:\Users\t\source\repos\SporSalonuYonetimSistemi\SporSalonuYonetimSistemi\obj\Debug\net8.0\SporSalonuYonetimSistemi.genruntimeconfig.cache
 C:\Users\t\source\repos\SporSalonuYonetimSistemi\SporSalonuYonetimSistemi\obj\Debug\net8.0\ref\SporSalonuYonetimSistemi.dll
+<<<<<<< HEAD
 C:\Users\t\source\repos\Web-programlama\SporSalonuYonetimSistemi\SporSalonuYonetimSistemi\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\t\source\repos\Web-programlama\SporSalonuYonetimSistemi\SporSalonuYonetimSistemi\bin\Debug\net8.0\appsettings.json
 C:\Users\t\source\repos\Web-programlama\SporSalonuYonetimSistemi\SporSalonuYonetimSistemi\bin\Debug\net8.0\SporSalonuYonetimSistemi.staticwebassets.endpoints.json
@@ -301,3 +302,5 @@ C:\Users\t\source\repos\Web-programlama\SporSalonuYonetimSistemi\SporSalonuYonet
 C:\Users\t\source\repos\Web-programlama\SporSalonuYonetimSistemi\SporSalonuYonetimSistemi\obj\Debug\net8.0\SporSalonuYonetimSistemi.pdb
 C:\Users\t\source\repos\Web-programlama\SporSalonuYonetimSistemi\SporSalonuYonetimSistemi\obj\Debug\net8.0\SporSalonuYonetimSistemi.genruntimeconfig.cache
 C:\Users\t\source\repos\Web-programlama\SporSalonuYonetimSistemi\SporSalonuYonetimSistemi\obj\Debug\net8.0\ref\SporSalonuYonetimSistemi.dll
+=======
+>>>>>>> 2c6a6a27c00e28d78667db377d548b26bce52990

@@ -6,7 +6,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Veritabaný baðlantýsýný ekleyin
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
+<<<<<<< HEAD
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));  // Baðlantý dizesini kullanarak SQL Server'a baðlanýyoruz
+=======
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));  // Baðlantý dizesi
+>>>>>>> 2c6a6a27c00e28d78667db377d548b26bce52990
 
 // Identity servisini ekleyin
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
